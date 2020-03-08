@@ -96,7 +96,33 @@ nav {
 
 .responsive li {
     display: block;
-}  
+} 
+
+
+main {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(199, 107, 107);
+    padding: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#small {
+
+    width: 300px;
+    margin: auto;
+}
+
+#medium {
+
+    width: 700px;
+    margin: auto;
+}
 
 h3 {
     text-align: center;

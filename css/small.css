@@ -1,0 +1,139 @@
+/*size for phones and another devices*/
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
+}
+
+#pancake{
+
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(241, 241, 114);
+    
+}
+header {
+	background-color: rgb(80, 35, 56);
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trade Winds' ;
+    color: honeydew;
+	
+}
+h2 {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trade Winds' ;
+   
+}
+p {
+font-family: 'Trade Winds';
+color: rgb(54, 10, 10);
+}
+
+
+    footer div{
+
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(80, 35, 56);
+        font-family: 'Trade Winds' ;
+        color: honeydew;
+        
+
+        }
+.people img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.people img {
+    filter: blur(0em);
+    transition: filter 3s;
+    padding: 5px;
+}
+
+/*here is the code for nav bar */
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #000;
+   
+}
+.navigation {
+    list-style: block;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.navigation li:first-child {
+    display: block;
+    
+}
+.navigation li {
+    display: none;
+    
+}
+.navigation a {
+    display: block;
+    color:rgb(65, 206, 119);
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    text-align: center;
+}
+.navigation a:hover {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}  
+
+.townsection {
+
+    display: block;
+    margin: auto;
+    border: 1px black solid;
+    background-color: rgb(235, 220, 137);
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.cards section:hover {
+    background-color: whitesmoke;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.townp {
+    text-align: center;
+    font-family: 'Roboto' ;
+    
+}
+
+.townimage {
+    display: block;
+    width: 85%;
+    height: 300px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px #1b1a1d;
+}
+
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+

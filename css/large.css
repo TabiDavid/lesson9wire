@@ -1,0 +1,12 @@
+@media only screen and (min-width: 64em) {
+
+
+    .cards {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .townsection {
+        display: block;
+        max-width: 94%;
+    }
+}
